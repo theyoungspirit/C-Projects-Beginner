@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define ARR_SIZE 1000
+#define ARR_SIZE 100
 
 void sort(int* array, int* size);
 void minVal(int* array, int* size);
@@ -49,14 +49,7 @@ int main(void)
 			return 0;
 			break;
 	}
-	
-	
-	
-	
-	
 }
-
-
 void sort(int* array, int* size)
 {
 	for (int i = 0; i < *size; i++)
